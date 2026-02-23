@@ -1,8 +1,8 @@
-# [Project Name] - Team [X]
+# Airbnb Pricing - Team 7
 
 **DATA 4950 Data Science Capstone | Spring 2026**
 
-**Team Members:** [List your names here]
+**Team Members:** Jessie Dicker and Norma Arredondo
 
 ---
 
@@ -14,10 +14,10 @@
 
 | Item | Description |
 |------|-------------|
-| **Source** | [Where did you get the data?] |
-| **Size** | [How many rows and columns?] |
-| **Target Variable** | [What are you predicting?] |
-| **Task Type** | [Classification / Regression] |
+| **Source** | From the Project Menu |
+| **Size** | 48,895 Rows and 16 Columns |
+| **Target Variable** | price |
+| **Task Type** | Regression |
 
 ## Repository Structure
 
