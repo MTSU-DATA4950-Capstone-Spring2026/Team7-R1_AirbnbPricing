@@ -10,11 +10,13 @@
 
 [Write 2-3 sentences describing your project. What problem are you solving? What data are you using?]
 
+We are using Airbnb data to predict the price of nightly listings in New York City. The data includes various predictors of price such as location. This is a regression analysis, as we will be using linear, ridge, lasso regression models, along with  decision tree, random forest, and gradient boosting models to predict price. This analysis aims to help hosts accurately price their listings in order to maximize revenue. 
+
 ## Dataset
 
 | Item | Description |
 |------|-------------|
-| **Source** | From the Project Menu |
+| **Source** | Kaggle |
 | **Size** | 48,895 Rows and 16 Columns |
 | **Target Variable** | price |
 | **Task Type** | Regression |
@@ -60,21 +62,21 @@
 
 | Deliverable | Due Date | Status |
 |-------------|----------|--------|
-| Project Charter & Data Acquisition Plan | End of Week 5 | ⬜ Not Started |
-| Exploratory Analysis & Data Preparation Report | End of Week 9 | ⬜ Not Started |
-| Peer Review 1 (Data Readiness Check) | Week 10 | ⬜ Not Started |
-| Model Development & Evaluation Report | End of Week 12 | ⬜ Not Started |
-| Peer Review 2 (Modeling Progress Check) | Week 13 | ⬜ Not Started |
-| Final Presentation | Week 15 | ⬜ Not Started |
-| Final Report & GitHub Repository | Week 15 + 5 days | ⬜ Not Started |
+| Project Charter & Data Acquisition Plan | End of Week 5 | ⬜ Done |
+| Exploratory Analysis & Data Preparation Report | End of Week 9 | ⬜ Done |
+| Peer Review 1 (Data Readiness Check) | Week 10 | ⬜ Done |
+| Model Development & Evaluation Report | End of Week 12 | ⬜ Done |
+| Peer Review 2 (Modeling Progress Check) | Week 13 | ⬜ Done |
+| Final Presentation | Week 15 | ⬜ Done |
+| Final Report & GitHub Repository | Week 15 + 5 days | ⬜ Done |
 
 ## Key Findings
 
 *[Update this section as you discover insights from your analysis]*
 
-1. Finding 1: ...
-2. Finding 2: ...
-3. Finding 3: ...
+1. Finding 1: The Gradient Boosting model is our best model, with a test R2 of 0.476 and RMSE of 76.46. 
+2. Finding 2: Location features are the most predictive of price. 
+3. Finding 3: Unit type is also very predictive of price, although less so than location. 
 
 ## Git Workflow for Team Collaboration
 
